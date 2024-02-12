@@ -1,0 +1,15 @@
+.pai{
+    background-color: lightcoral;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+.filho{
+    background-color: lightblue;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}

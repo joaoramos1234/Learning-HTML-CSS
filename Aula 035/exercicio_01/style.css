@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: paleturquoise;
+}
+h1{
+    font-family: 'Noto Serif Lao';
+    font-weight: 700;
+    font-size: 3rem;
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 2.1rem;
+    
+}
+p{
+    font-family: 'Source Sans 3';
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 10px auto;
+    line-height: 1.8 ;
+    text-align: justify;
+}

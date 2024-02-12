@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+}
+.especial{
+    background-color: yellow;
+    
+}
+span:hover{
+    transition-delay: 1s;
+}

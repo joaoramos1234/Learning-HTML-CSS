@@ -1,0 +1,119 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    text-align: center;
+}
+header, footer{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav, footer{
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+}
+footer{
+    padding: 12px 0px;
+    color: white;
+    font-weight: bold;
+}
+nav{
+    
+    font-weight: bold;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px;
+    transition-duration: 0.5s;
+}
+nav > a:hover{
+    background-color: rgb(200, 200, 200);
+    color: black;
+    border: 1px solid rgb(200, 200, 200);
+}
+h1, h3{
+    margin: 0;
+    padding-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+#first_div{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://a3fsolar.com.br/images/energia-solar-2019-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    margin:0;
+}
+#second_div{
+    background-color: red;
+    color: white;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#third_div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#first_img, #second_img, #third_img, #fourth_img{
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition-duration: 0.5s;
+    filter: brightness(80%);
+    cursor: pointer;
+}
+#third_div > div:hover{
+    filter: brightness(150%);
+    color: red;
+}
+#first_img{
+    background-image: url("https://i.pinimg.com/originals/5b/b7/d7/5bb7d7aad88b4ac0c95dae608210a659.png");
+}
+#second_img{
+    background-image: url("https://sitesustentavel.com.br/wp-content/uploads/2019/05/sh_energia-eolica_759730900.jpg");
+}
+#third_img{
+    background-image: url("https://static.significados.com.br/foto/energia-hidreletrica-fb.jpg");
+}
+#fourth_img{
+    background-image: url("https://network.grupoabril.com.br/wp-content/uploads/sites/4/2016/12/energia-nuclear1.jpg");
+}

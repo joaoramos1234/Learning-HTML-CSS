@@ -1,0 +1,55 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    background-color: black;
+    color: rgb(46, 46, 46);
+    background-image: url("https://i.pinimg.com/originals/57/bb/66/57bb66cb4895565d755910654a6b0c80.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header, footer{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 2rem;
+}
+p{
+    text-align: justify;
+    font-size: 1.25rem;
+}
+.div_css{
+    background-color: rgba(255, 255, 255, 0.322);
+    width: 30%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 25px;
+}
+.div_css:hover, #div_inferior > .div_css:hover {
+    color:black;
+    background-color:white ;
+    border: 2px solid black;
+}
+#div_superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+#div_inferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+#div_inferior > .div_css{
+    color: white;
+    background-color: rgba(15, 15, 15, 0.322);
+}
+footer{
+    color: white;
+    margin-top: 159px;
+}

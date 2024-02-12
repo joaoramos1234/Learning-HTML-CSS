@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(255, 255, 0, 0.582);
+    text-align: center;
+}
+header, footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: lightslategrey;
+    height: 50px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.div_css{
+    background-color: lightpink;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 15px; 
+    padding: 5px;
+    text-align: center;
+    z-index: 10;
+}
+#especial_1{
+    background-color: aqua;
+    position: absolute;
+    z-index: 20;
+    top: 150px;
+    right: 250px;
+}
+#especial_2{
+    background-color: darkolivegreen;
+    position: fixed;
+    left: 300px; 
+    top: 150px;
+    z-index: 50;
+}
+#especial_3{
+    background-color: purple;
+    position: absolute;
+    top: 800px;
+    right: 600px;
+    z-index: 0;
+}
+#especial_4{
+    background-color: red;
+    position: sticky;
+    z-index: 0;
+    bottom: 0;
+}

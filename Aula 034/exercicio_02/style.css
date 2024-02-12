@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+header,
+footer{
+    background-color: lightgrey;
+    font-size: 3rem;
+    font-weight: bold;
+}
+main{
+    margin-top: 100px;
+}
+#box_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px;
+}
+.box_css{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    font-size: 1.20rem;
+    padding: 20px;
+}
+#box_1{
+    box-shadow: -15px -15px #888888;
+}
+#box_2{
+    box-shadow: 0px -15px #888888;
+}
+#box_3{
+    box-shadow: 15px -15px #888888;
+}
+#box_4{
+    box-shadow: 10px 10px 8px #ff000057;
+}
+#box_5{
+    box-shadow: 13px 15px 15px 15px #0400ff8c,
+    inset 0px 0px 10px 10px white;
+}
+#linear_gradient{
+    margin-top: 100px;
+}
+#linear_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    margin: 100px;
+}
+.linear_css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+#linear_box_1{
+    background-image: linear-gradient(to bottom, black, purple, white);
+}
+#linear_box_2{
+    background-image: linear-gradient(to right, blue, green, red);
+}
+#linear_box_3{
+    background-image: linear-gradient(45deg, blue, aqua, green);
+}
