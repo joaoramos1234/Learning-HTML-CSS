@@ -1,0 +1,30 @@
+body{
+    background-color: grey;
+}
+.box{
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    margin:auto;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+#div_2{
+    border-color: red;
+}
+
+.hover_div{
+    border: 1px solid yellow;
+    width: 750px;
+    margin: auto;
+}
+
+.hover_div:hover{
+    background-color: white;
+    border: 3px solid orangered;
+}
+#hover_2{
+    transition-duration: 1.5s;
+}

@@ -1,0 +1,33 @@
+#cm{
+    background-color: red;
+    width: 20cm;
+}
+
+#mm{
+    background-color: green;
+    width: 200mm;
+}
+
+#in{
+    background-color: aqua;
+    width: 7.85in;
+}
+
+#px{
+    background-color: orange ;
+    width: 755px;
+}
+
+#pt{
+    background-color: violet ;
+    width: 570pt;
+}
+
+#pc{
+    background-color: grey ;
+    width: 48pc;
+}
+
+div{
+    font-size: 30px;
+}

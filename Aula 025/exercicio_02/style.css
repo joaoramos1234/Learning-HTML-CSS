@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+}
+#main_div{
+    border: 4px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.teste{
+    background-color: pink;
+    border: 2px solid black;
+    width: 200px;
+    height: 150px;
+}

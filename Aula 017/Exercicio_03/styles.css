@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#em{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+
+#em >p{
+    font-size: 1.25em;
+}
+
+#rem{
+    background-color: red;
+    color: white;
+    font-size: 10px;
+}
+
+#rem > p{
+    font-size: 2rem;
+}
+
+
+#vw{
+    background-color: yellow;
+    font-size: 20px;
+}
+
+#vw > p{
+    font-size: 2vw;
+}
+
+#vh{
+    background-color: violet;
+    font-size: 20px;
+}
+
+#vh > p{
+    font-size: 3vh;
+}
+
+#vmin{
+    background-color: grey;
+    font-size: 20px;
+}
+
+#vmin > p{
+    font-size: 3vmin;
+}
+#vmax{
+    background-color: aqua;
+    font-size: 20px;
+    width: 50vmax;
+}
+
+#vmax > p{
+    font-size: 10px;
+    
+}
+
+#percentagem{
+    background-color: rgb(228, 74, 120);
+    font-size: 20px;
+    width: 50%;
+}
+
+#percentagem > p{
+    font-size: 20px;
+    background-color: brown;
+    width: 50%;
+    
+}

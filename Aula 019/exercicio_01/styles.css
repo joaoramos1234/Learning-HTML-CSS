@@ -1,0 +1,27 @@
+body{
+    background-color: green;
+    color:grey;
+    text-align: center;
+    border: 2px solid white;
+}
+
+@media all and (max-width: 800px){
+    body{
+        background-color: yellow;
+        border: 2px solid black;
+    }
+}
+
+@media all and (max-width: 500px){
+    body{
+        background-color: red;
+        border: 2px solid blue;
+    }
+}
+
+@media all and (max-width: 300px){
+    body{
+        background-color: lightcoral ;
+        border: 2px dotted green;
+    }
+}

@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(40, 40, 40);
+}
+h1{
+    font-family: 'Courier';
+    text-align: center;
+    color: white;
+}
+
+.main_div{
+    font-family: 'Gill Sans';
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.308);
+}
+.img_div_1{
+    width: 30%;
+    height: 30vh;
+    transition-duration: .3s;
+}
+.img_div_1:hover{
+    border: 3px solid red;
+    border-radius: 10px;
+    cursor: grab;
+}
+
+button{
+    font-family: 'Arial';
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+button:hover{
+    border: 3px solid white;
+    padding: 2em;
+}
+
+span{
+    border: 1px solid red;
+    color: red;
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 3px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+span:hover{
+    font-size: 18px;
+}
+
+@media all and (max-width: 650px){
+    .main_div{
+        font-size: 18px;
+    }
+    body{
+        background-color: darkred;
+    }
+    span{
+        border: 1px solid white;
+        color: white;
+        background-color: blue;
+        border-radius: 10px;
+        padding: 3px;
+    }
+    .img_div_1{
+        width: 49%;
+    }
+}
+
+@media all and (max-width: 450px){
+    body{
+        background-color: darkgreen;
+    }
+    .main_div{
+        font-size: 20px;
+    }
+    .img_div_1{
+        width: 100%;
+    }   
+}
+
+.extra{
+    font-family: 'arial';
+    background-color: rgb(40, 40, 40);
+    height: 35vh;
+    width: 25%;
+    margin:0 auto;
+    background-image: url(https://vemvoar.voeazul.com.br/wp-content/uploads/2020/10/Torre-de-Belem-Lisboa-1536x1152.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgba(255, 0, 0, 0);
+    border-radius: 10px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.extra:hover{
+    color: red;
+    font-size: 20px;
+}
+@media all and (max-width: 650px){
+    .extra{
+        background-color: darkred;
+        border: 1px solid darkred;
+        width: 100%;
+    }
+     
+}
+     
+@media all and (max-width: 449px){
+    .extra{
+        background-color: darkgreen;
+        border-color: darkgreen;
+       
+    }
+     
+}

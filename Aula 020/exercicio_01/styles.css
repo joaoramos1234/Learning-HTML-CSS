@@ -1,0 +1,20 @@
+.box{
+    text-align: center;
+    color: white;
+    border: 5px solid black;
+    width: 400px;
+    margin: auto;
+    height: 300px;
+    overflow-y: auto;
+}
+#teste_3{
+    background-color: purple;
+    transition-duration: 0.3s;
+}
+#teste_3:hover{
+    background-color: red;
+}
+#teste{
+    background-color: red;
+}
+

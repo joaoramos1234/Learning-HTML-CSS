@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+#main_div{
+    border: 4px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 800px;
+}
+.teste{
+    background-color: lightblue;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
