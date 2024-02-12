@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    max-height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: inline;
+    text-align:right;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav > a, #nav_image_1,#nav_image_2 {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+main{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main_div > img{
+   margin-bottom: 20px;
+}
+#input_div{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    position: relative;
+    height: 40px;
+    width: 550px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    background-image: url("https://lh4.googleusercontent.com/Ukio8a0PjZaLPGJnMgTsUnouOcBya4U8oSdemr_ZBZlCWhiXWkZo6QUltkO0hqAh4d_bme2XHqUJUuo=w1920-h937");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+#input_div_img{
+    height: 25px;
+    width: 525px;
+    position: absolute;
+    bottom: 669px;
+    left: 222px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+#main_image_2{
+    position: relative;
+    left: 220px;
+}
+#buttons > button{
+    background-color: rgba(211, 211, 211, 0.295);
+    margin: 50px 20px;
+    border: none;
+    padding: 10px
+}
+#english > span{
+    color: blue;
+}
+footer{
+    background-color: rgba(211, 211, 211, 0.3);
+    color: rgba(107, 104, 104, 0.781);
+    margin-top: 123px;
+}
+hr{
+    border-color: rgba(255, 255, 255, 0.493);
+}
+footer a{
+    text-decoration: none;
+    color: rgba(107, 104, 104, 0.781);
+    padding: 20px;
+}
+#portugal{
+    padding: 10px;
+}
+#carbono, #links_footer{
+    text-align: center;
+}
+#carbono{
+    margin-top: 25px;
+    font-weight: bold;
+}
+#links_footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#spacing_link{
+    margin-right: 50px;
+}
